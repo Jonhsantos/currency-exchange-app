@@ -1,0 +1,3455 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "p0w5W",
+      "x": 1096,
+      "y": 0,
+      "name": "Câmbio — Dashboard",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#F4F7FA",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Liijm",
+          "name": "Navegação lateral",
+          "width": 224,
+          "height": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            28,
+            22,
+            24,
+            22
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "GWl7V",
+              "name": "Marca",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CWEhf",
+                  "name": "Símbolo da marca",
+                  "width": 34,
+                  "height": 34,
+                  "fill": "#07866E",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "woDhd",
+                      "name": "Ícone de gráfico",
+                      "width": 19,
+                      "height": 19,
+                      "icon": "chart-no-axes-combined",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "vQPDb",
+                  "name": "Nome do produto",
+                  "fill": "#14243A",
+                  "content": "Corrency exchange",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mmDhP",
+              "name": "Menu principal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ez5pj",
+                  "name": "Navegação — Visão geral",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#E6F5F1",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "LSNbl",
+                      "name": "Ícone — Visão geral",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "layout-dashboard",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aWIci",
+                      "name": "Rótulo — Visão geral",
+                      "fill": "#07866E",
+                      "content": "Visão geral",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "semibold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XU8Av",
+                  "name": "Navegação — Conversor",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "yUsjU",
+                      "name": "Ícone — Conversor",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-left-right",
+                      "library": "lucide",
+                      "fill": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f8ldO6",
+                      "name": "Rótulo — Conversor",
+                      "fill": "#718096",
+                      "content": "Conversor",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "txejM",
+                  "name": "Navegação — Favoritos",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ETCeS",
+                      "name": "Ícone — Favoritos",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g40P7",
+                      "name": "Rótulo — Favoritos",
+                      "fill": "#718096",
+                      "content": "Favoritos",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KCwDW",
+          "name": "Área de trabalho",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "DI8Se",
+              "name": "Cabeçalho",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "O4KdQ",
+                  "name": "Título da página",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y8is2",
+                      "name": "Título",
+                      "fill": "#14243A",
+                      "content": "Visão geral",
+                      "fontFamily": "Geist",
+                      "fontSize": 27,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FQmEK",
+                      "name": "Subtítulo",
+                      "fill": "#718096",
+                      "content": "Acompanhe as moedas que importam para você.",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F2ZzD",
+                  "name": "Ações do cabeçalho",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YjmSh",
+                      "name": "Botão atualizar",
+                      "height": 40,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 9,
+                      "stroke": "#E5EAF0",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Ei8pu",
+                          "name": "Ícone atualizar",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "refresh-cw",
+                          "library": "lucide",
+                          "fill": "#14243A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fCnqV",
+                          "name": "Texto atualizar",
+                          "fill": "#14243A",
+                          "content": "Atualizar",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "XFbt3",
+                      "name": "Avatar do usuário",
+                      "fill": "#DDE8F0",
+                      "width": 38,
+                      "height": 38
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LGfAp",
+              "name": "Cotação em destaque",
+              "width": "fill_container",
+              "height": 82,
+              "fill": "#14243A",
+              "cornerRadius": 13,
+              "padding": [
+                16,
+                22
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OgeVo",
+                  "name": "Par de moedas em destaque",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dW41c",
+                      "name": "Ícone dólar",
+                      "width": 42,
+                      "height": 42,
+                      "fill": "#243954",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AqRTE",
+                          "name": "Símbolo dólar",
+                          "fill": "#FFFFFF",
+                          "content": "$",
+                          "fontFamily": "Geist",
+                          "fontSize": 21,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LHxvy",
+                      "name": "Nome do par",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kF7Oo",
+                          "name": "Par USD BRL",
+                          "fill": "#FFFFFF",
+                          "content": "USD / BRL",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jd1HP",
+                          "name": "Nota de referência",
+                          "fill": "#B8C6D8",
+                          "content": "Dólar americano · Real brasileiro",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C2ztSv",
+                  "name": "Valor cotação principal",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qxU7K",
+                      "name": "Valor principal",
+                      "fill": "#FFFFFF",
+                      "content": "R$ 5,72",
+                      "fontFamily": "Geist",
+                      "fontSize": 26,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wCQxj",
+                      "name": "Nota ilustrativa",
+                      "fill": "#B8C6D8",
+                      "content": "Valor ilustrativo",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d74b9g",
+              "name": "Conteúdo principal",
+              "width": 1137,
+              "height": 440,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Pgj06",
+                  "name": "Painel de evolução",
+                  "width": 1137,
+                  "height": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 13,
+                  "stroke": "#E5EAF0",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    22,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G9rDZL",
+                      "name": "Cabeçalho do gráfico",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vXt51",
+                          "name": "Título e variação do gráfico",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ODZox",
+                              "name": "Título da evolução",
+                              "fill": "#14243A",
+                              "content": "Evolução da cotação",
+                              "fontFamily": "Geist",
+                              "fontSize": 16,
+                              "fontWeight": "semibold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Cv8Il",
+                              "name": "Variação da cotação",
+                              "gap": 7,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hf8A6",
+                                  "name": "Variação percentual",
+                                  "fill": "#07866E",
+                                  "content": "+0,84%",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "semibold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "jDHyf",
+                                  "name": "Período da variação",
+                                  "fill": "#718096",
+                                  "content": "no período selecionado · ilustrativo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R5n7Jl",
+                          "name": "Filtros de período",
+                          "fill": "#F4F7FA",
+                          "cornerRadius": 8,
+                          "gap": 3,
+                          "padding": 3,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "WzQq7",
+                              "name": "Período 1D",
+                              "width": 48,
+                              "height": 30,
+                              "fill": "#F4F7FA",
+                              "cornerRadius": 6,
+                              "stroke": "#F4F7FA",
+                              "layout": "vertical",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "p6JSR",
+                                  "name": "Rótulo período 1D",
+                                  "fill": "#718096",
+                                  "content": "Dia",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 11,
+                                  "fontWeight": "medium"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "K3Xrbq",
+                              "name": "Período 1S",
+                              "width": 64,
+                              "height": 30,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 6,
+                              "stroke": "#E5EAF0",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Dkk91",
+                                  "name": "Rótulo período 1S",
+                                  "fill": "#14243A",
+                                  "content": "Semana",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 11,
+                                  "fontWeight": "semibold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "eW2rs",
+                              "name": "Período 1M",
+                              "width": 54,
+                              "height": 30,
+                              "fill": "#F4F7FA",
+                              "cornerRadius": 6,
+                              "stroke": "#F4F7FA",
+                              "layout": "vertical",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Rr0Aw",
+                                  "name": "Rótulo período 1M",
+                                  "fill": "#718096",
+                                  "content": "Mês",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 11,
+                                  "fontWeight": "medium"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mf52j",
+                              "name": "Período 1A",
+                              "width": 48,
+                              "height": 30,
+                              "fill": "#F4F7FA",
+                              "cornerRadius": 6,
+                              "stroke": "#F4F7FA",
+                              "layout": "vertical",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "WK9AC",
+                                  "name": "Rótulo período 1A",
+                                  "fill": "#718096",
+                                  "content": "Ano",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 11,
+                                  "fontWeight": "medium"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xFhNo",
+                              "name": "Período Tudo",
+                              "width": 48,
+                              "height": 30,
+                              "fill": "#F4F7FA",
+                              "cornerRadius": 6,
+                              "stroke": "#F4F7FA",
+                              "layout": "vertical",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "A0EmK",
+                                  "name": "Rótulo período Tudo",
+                                  "fill": "#718096",
+                                  "content": "Tudo",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 11,
+                                  "fontWeight": "medium"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ias9t",
+                      "name": "Área do gráfico",
+                      "width": "fill_container",
+                      "height": 280,
+                      "fill": "#FFFFFF",
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "fSp7z",
+                          "x": 0,
+                          "y": 34,
+                          "name": "Linha de grade 1",
+                          "fill": "#E5EAF0",
+                          "width": 692,
+                          "height": 1
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "baiKm",
+                          "x": 0,
+                          "y": 92,
+                          "name": "Linha de grade 2",
+                          "fill": "#E5EAF0",
+                          "width": 692,
+                          "height": 1
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "OtduC",
+                          "x": 0,
+                          "y": 150,
+                          "name": "Linha de grade 3",
+                          "fill": "#E5EAF0",
+                          "width": 692,
+                          "height": 1
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "zzeQ8",
+                          "x": 0,
+                          "y": 208,
+                          "name": "Linha de grade 4",
+                          "fill": "#E5EAF0",
+                          "width": 692,
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "wpig7",
+                          "x": 0,
+                          "y": 22,
+                          "name": "Eixo vertical 5,80",
+                          "fill": "#718096",
+                          "content": "5,80",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "S4rirw",
+                          "x": 0,
+                          "y": 80,
+                          "name": "Eixo vertical 5,70",
+                          "fill": "#718096",
+                          "content": "5,70",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "el2tf",
+                          "x": 0,
+                          "y": 138,
+                          "name": "Eixo vertical 5,60",
+                          "fill": "#718096",
+                          "content": "5,60",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "viCok",
+                          "x": 0,
+                          "y": 196,
+                          "name": "Eixo vertical 5,50",
+                          "fill": "#718096",
+                          "content": "5,50",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "path",
+                          "id": "Ojox0",
+                          "x": 52,
+                          "y": 38,
+                          "name": "Linha de evolução ilustrativa",
+                          "geometry": "M0 148c40-12 48-20 82-11s51 8 81-25 46 9 79-9 46 22 85-9 46 6 82-15 46 17 80-12 47 11 79-16 36 14 62-17",
+                          "viewBox": [
+                            0,
+                            0,
+                            630,
+                            205
+                          ],
+                          "fill": "#00000000",
+                          "width": 630,
+                          "height": 205,
+                          "stroke": "#07866E",
+                          "strokeWidth": 3,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "text",
+                          "id": "T3s8R5",
+                          "x": 46,
+                          "y": 252,
+                          "name": "Eixo temporal Seg",
+                          "fill": "#718096",
+                          "content": "Seg",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZhJeA",
+                          "x": 148,
+                          "y": 252,
+                          "name": "Eixo temporal Ter",
+                          "fill": "#718096",
+                          "content": "Ter",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "stDdy",
+                          "x": 250,
+                          "y": 252,
+                          "name": "Eixo temporal Qua",
+                          "fill": "#718096",
+                          "content": "Qua",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fRxBR",
+                          "x": 352,
+                          "y": 252,
+                          "name": "Eixo temporal Qui",
+                          "fill": "#718096",
+                          "content": "Qui",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "k2gs2",
+                          "x": 454,
+                          "y": 252,
+                          "name": "Eixo temporal Sex",
+                          "fill": "#718096",
+                          "content": "Sex",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l3KWVq",
+                          "x": 556,
+                          "y": 252,
+                          "name": "Eixo temporal Sáb",
+                          "fill": "#718096",
+                          "content": "Sáb",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "I3U8eN",
+                          "x": 658,
+                          "y": 252,
+                          "name": "Eixo temporal Dom",
+                          "fill": "#718096",
+                          "content": "Dom",
+                          "textAlign": "center",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bnKwS",
+              "name": "Resumo do mercado",
+              "width": "fill_container",
+              "height": 172,
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UjmHk",
+                  "name": "Moedas em destaque",
+                  "width": 740,
+                  "height": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 13,
+                  "stroke": "#E5EAF0",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    22
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kGHen",
+                      "name": "Cabeçalho moedas em destaque",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZJU0j",
+                          "name": "Título moedas",
+                          "fill": "#14243A",
+                          "content": "Moedas em destaque",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RhO3w",
+                          "name": "Link favoritos",
+                          "fill": "#07866E",
+                          "content": "Ver favoritos  →",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u4S3hz",
+                      "name": "Linha moeda EUR",
+                      "width": "fill_container",
+                      "height": 25,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vrKTM",
+                          "name": "Identificação EUR",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RkYuW",
+                              "name": "Código EUR",
+                              "fill": "#14243A",
+                              "content": "EUR",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "E6Y1yp",
+                              "name": "Nome EUR",
+                              "fill": "#718096",
+                              "content": "Euro",
+                              "fontFamily": "Geist",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Oa1Sy",
+                          "name": "Valor e variação EUR",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QD7Qe",
+                              "name": "Valor EUR",
+                              "fill": "#14243A",
+                              "content": "R$ 6,18",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "medium"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JVsnq",
+                              "name": "Variação EUR",
+                              "fill": "#07866E",
+                              "content": "+0,32%",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GRZDJ",
+                      "name": "Linha moeda GBP",
+                      "width": "fill_container",
+                      "height": 25,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xQhQM",
+                          "name": "Identificação GBP",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "chbu5",
+                              "name": "Código GBP",
+                              "fill": "#14243A",
+                              "content": "GBP",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uhJsj",
+                              "name": "Nome GBP",
+                              "fill": "#718096",
+                              "content": "Libra esterlina",
+                              "fontFamily": "Geist",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R6taz",
+                          "name": "Valor e variação GBP",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ig6El",
+                              "name": "Valor GBP",
+                              "fill": "#14243A",
+                              "content": "R$ 7,24",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "medium"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vpEeH",
+                              "name": "Variação GBP",
+                              "fill": "#D65C5C",
+                              "content": "−0,18%",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w1hmDw",
+                      "name": "Linha moeda JPY",
+                      "width": "fill_container",
+                      "height": 25,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "R2lNGf",
+                          "name": "Identificação JPY",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uG7ze",
+                              "name": "Código JPY",
+                              "fill": "#14243A",
+                              "content": "JPY",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qSE7l",
+                              "name": "Nome JPY",
+                              "fill": "#718096",
+                              "content": "Iene japonês",
+                              "fontFamily": "Geist",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VqmJq",
+                          "name": "Valor e variação JPY",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M43lM",
+                              "name": "Valor JPY",
+                              "fill": "#14243A",
+                              "content": "R$ 0,038",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "medium"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zTSYs",
+                              "name": "Variação JPY",
+                              "fill": "#07866E",
+                              "content": "+0,51%",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "medium"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dsBPT",
+                  "name": "Resumo rápido",
+                  "width": 380,
+                  "height": "fill_container",
+                  "fill": "#E9F3F4",
+                  "cornerRadius": 13,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q0HSM",
+                      "name": "Título resumo",
+                      "fill": "#14243A",
+                      "content": "Seu mercado, em um olhar",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wkOru",
+                      "name": "Descrição resumo",
+                      "fill": "#718096",
+                      "textGrowth": "fixed-width",
+                      "width": 330,
+                      "content": "Salve pares de moedas para acompanhar suas variações com mais facilidade.",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CPCry",
+                      "name": "Ação adicionar favorito",
+                      "height": 30,
+                      "gap": 7,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "rAYpF",
+                          "name": "Ícone estrela",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "star",
+                          "library": "lucide",
+                          "fill": "#07866E"
+                        },
+                        {
+                          "type": "text",
+                          "id": "X4yqb",
+                          "name": "Texto adicionar favorito",
+                          "fill": "#07866E",
+                          "content": "Organizar favoritos",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "semibold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uMF8A",
+      "x": 2632,
+      "y": 0,
+      "name": "Câmbio — Conversor",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#F4F7FA",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FJqDi",
+          "name": "Navegação lateral — Conversor",
+          "width": 224,
+          "height": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            28,
+            22,
+            24,
+            22
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Tqddi",
+              "name": "Marca",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Iu7w8",
+                  "name": "Símbolo da marca",
+                  "width": 34,
+                  "height": 34,
+                  "fill": "#07866E",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "n5Nyz",
+                      "name": "Ícone de gráfico",
+                      "width": 19,
+                      "height": 19,
+                      "icon": "chart-no-axes-combined",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Of8GL",
+                  "name": "Nome do produto",
+                  "fill": "#14243A",
+                  "content": "Corrency exchange",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c9YYq",
+              "name": "Menu principal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r5OfJ",
+                  "name": "Navegação — Visão geral",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "xz74K",
+                      "name": "Ícone — Visão geral",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "layout-dashboard",
+                      "library": "lucide",
+                      "fill": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o25tzT",
+                      "name": "Rótulo — Visão geral",
+                      "fill": "#718096",
+                      "content": "Visão geral",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "semibold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iKG8D",
+                  "name": "Navegação — Conversor",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#E6F5F1",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "m7Ok8J",
+                      "name": "Ícone — Conversor",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-left-right",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eAHTo",
+                      "name": "Rótulo — Conversor",
+                      "fill": "#07866E",
+                      "content": "Conversor",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mcUf7",
+                  "name": "Navegação — Favoritos",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "qOScl",
+                      "name": "Ícone — Favoritos",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y6kdAz",
+                      "name": "Rótulo — Favoritos",
+                      "fill": "#718096",
+                      "content": "Favoritos",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rMezm",
+          "name": "Área de trabalho — Conversor",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Pmx0x",
+              "name": "Cabeçalho — Conversor",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "S9NRse",
+                  "name": "Título — Conversor",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gUltB",
+                      "name": "Título da tela conversor",
+                      "fill": "#14243A",
+                      "content": "Conversor de moedas",
+                      "fontFamily": "Geist",
+                      "fontSize": 27,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e66aF",
+                      "name": "Descrição conversor",
+                      "fill": "#718096",
+                      "content": "Simule valores usando cotações de referência.",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zKhN4",
+                  "name": "Status dos dados",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": "#E5EAF0",
+                  "strokeWidth": 1,
+                  "gap": 7,
+                  "padding": [
+                    9,
+                    13
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "zxHlN",
+                      "name": "Ponto de demonstração",
+                      "fill": "#E9A33B",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "CStw3",
+                      "name": "Rótulo dos dados",
+                      "fill": "#718096",
+                      "content": "Valores ilustrativos",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S6QGn1",
+              "name": "Painel de conversão",
+              "width": "fill_container",
+              "height": 425,
+              "fill": "#FFFFFF",
+              "cornerRadius": 14,
+              "stroke": "#E5EAF0",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 22,
+              "padding": [
+                28,
+                30
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oP1Oz",
+                  "name": "Título do painel de conversão",
+                  "fill": "#14243A",
+                  "content": "Quanto você quer converter?",
+                  "fontFamily": "Geist",
+                  "fontSize": 17,
+                  "fontWeight": "semibold"
+                },
+                {
+                  "type": "frame",
+                  "id": "I69MNd",
+                  "name": "Campos de moeda",
+                  "width": "fill_container",
+                  "height": 128,
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BCF9R",
+                      "name": "Campo Origem",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 11,
+                      "stroke": "#E5EAF0",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 11,
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A2DLf",
+                          "name": "Rótulo campo Origem",
+                          "fill": "#718096",
+                          "content": "Origem · moeda",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e23ZTM",
+                          "name": "Valor e seletor Origem",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gPFxN",
+                              "name": "Valor campo Origem",
+                              "fill": "#14243A",
+                              "content": "1.000,00",
+                              "fontFamily": "Geist",
+                              "fontSize": 26,
+                              "fontWeight": "semibold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "anm0X",
+                              "name": "Seletor moeda Origem",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "LH5Yz",
+                                  "name": "Código selecionado Origem",
+                                  "fill": "#14243A",
+                                  "content": "USD",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LHLON",
+                                  "name": "Nome moeda Origem",
+                                  "fill": "#718096",
+                                  "content": "anm0X",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w5iAQ",
+                      "name": "Campo Destino",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 11,
+                      "stroke": "#E5EAF0",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 11,
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IZtbO",
+                          "name": "Rótulo campo Destino",
+                          "fill": "#718096",
+                          "content": "Destino · moeda",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zjCkf",
+                          "name": "Valor e seletor Destino",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "h5jv4",
+                              "name": "Valor campo Destino",
+                              "fill": "#14243A",
+                              "content": "5.720,00",
+                              "fontFamily": "Geist",
+                              "fontSize": 26,
+                              "fontWeight": "semibold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "W8WYR",
+                              "name": "Seletor moeda Destino",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k6rFT",
+                                  "name": "Código selecionado Destino",
+                                  "fill": "#14243A",
+                                  "content": "BRL",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "biKeJ",
+                                  "name": "Nome moeda Destino",
+                                  "fill": "#718096",
+                                  "content": "W8WYR",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ulFMD",
+                      "name": "Botão inverter moedas",
+                      "width": 42,
+                      "height": 42,
+                      "fill": "#E6F5F1",
+                      "cornerRadius": 21,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "E1Mcd",
+                          "name": "Inverter direção",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-left-right",
+                          "library": "lucide",
+                          "fill": "#07866E"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Pooqx",
+                  "name": "Resultado da conversão",
+                  "width": "fill_container",
+                  "height": 75,
+                  "fill": "#F3F8F7",
+                  "cornerRadius": 10,
+                  "padding": [
+                    15,
+                    18
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rt03E",
+                      "name": "Resultado principal e observação",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j6q2s",
+                          "name": "Resultado estimado",
+                          "fill": "#14243A",
+                          "content": "1.000 USD  =  5.720 BRL",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MvDVr",
+                          "name": "Aviso de conversão",
+                          "fill": "#718096",
+                          "content": "Estimativa para demonstração · taxas e tarifas podem variar.",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "gbM15",
+                      "name": "Cotação aplicada",
+                      "fill": "#07866E",
+                      "content": "1 USD = R$ 5,72",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eK6Mm",
+                  "name": "Ações conversor",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X3Ty85",
+                      "name": "Nota de referência conversor",
+                      "fill": "#718096",
+                      "content": "Cotação de referência · sem compromisso de operação",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "r4d1Q",
+                      "name": "Salvar par de moedas",
+                      "fill": "#07866E",
+                      "cornerRadius": 8,
+                      "gap": 7,
+                      "padding": [
+                        10,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "IhHDk",
+                          "name": "Ícone salvar favorito",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "star",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OYN2Q",
+                          "name": "Texto salvar favorito",
+                          "fill": "#FFFFFF",
+                          "content": "Salvar par",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NYTWL",
+              "name": "Pares populares",
+              "width": "fill_container",
+              "height": 170,
+              "fill": "#FFFFFF",
+              "cornerRadius": 13,
+              "stroke": "#E5EAF0",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                20,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QwEUS",
+                  "name": "Título pares populares",
+                  "fill": "#14243A",
+                  "content": "Conversões populares",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "semibold"
+                },
+                {
+                  "type": "frame",
+                  "id": "Vn2Rf",
+                  "name": "Sugestões de pares",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "T7GO8w",
+                      "name": "Par USD para BRL",
+                      "width": "fill_container",
+                      "fill": "#F4F7FA",
+                      "cornerRadius": 9,
+                      "layout": "vertical",
+                      "gap": 7,
+                      "padding": [
+                        13,
+                        15
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FXkMw",
+                          "name": "Par de moedas USD BRL",
+                          "fill": "#14243A",
+                          "content": "USD  →  BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hKRcS",
+                          "name": "Cotação do par USD BRL",
+                          "fill": "#718096",
+                          "content": "1 USD = R$ 5,72",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qQM66",
+                      "name": "Par EUR para BRL",
+                      "width": "fill_container",
+                      "fill": "#F4F7FA",
+                      "cornerRadius": 9,
+                      "layout": "vertical",
+                      "gap": 7,
+                      "padding": [
+                        13,
+                        15
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Nk5Ti",
+                          "name": "Par de moedas EUR BRL",
+                          "fill": "#14243A",
+                          "content": "EUR  →  BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D6vcC6",
+                          "name": "Cotação do par EUR BRL",
+                          "fill": "#718096",
+                          "content": "1 EUR = R$ 6,18",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NZqpV",
+                      "name": "Par GBP para BRL",
+                      "width": "fill_container",
+                      "fill": "#F4F7FA",
+                      "cornerRadius": 9,
+                      "layout": "vertical",
+                      "gap": 7,
+                      "padding": [
+                        13,
+                        15
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Drz6e",
+                          "name": "Par de moedas GBP BRL",
+                          "fill": "#14243A",
+                          "content": "GBP  →  BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Xxbhs",
+                          "name": "Cotação do par GBP BRL",
+                          "fill": "#718096",
+                          "content": "1 GBP = R$ 7,24",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "o4FJCg",
+      "x": 4168,
+      "y": 0,
+      "name": "Câmbio — Favoritos",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#F4F7FA",
+      "children": [
+        {
+          "type": "frame",
+          "id": "K0xER0",
+          "name": "Navegação lateral — Favoritos",
+          "width": 224,
+          "height": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            28,
+            22,
+            24,
+            22
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "o86iBK",
+              "name": "Marca",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IVrCF",
+                  "name": "Símbolo da marca",
+                  "width": 34,
+                  "height": 34,
+                  "fill": "#07866E",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "E0mYJE",
+                      "name": "Ícone de gráfico",
+                      "width": 19,
+                      "height": 19,
+                      "icon": "chart-no-axes-combined",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "cSn08",
+                  "name": "Nome do produto",
+                  "fill": "#14243A",
+                  "content": "Corrency exchange",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KhWY1",
+              "name": "Menu principal",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TboOy",
+                  "name": "Navegação — Visão geral",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "npQG5",
+                      "name": "Ícone — Visão geral",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "layout-dashboard",
+                      "library": "lucide",
+                      "fill": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kLhKq",
+                      "name": "Rótulo — Visão geral",
+                      "fill": "#718096",
+                      "content": "Visão geral",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "semibold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sSsVF",
+                  "name": "Navegação — Conversor",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "bzHy0",
+                      "name": "Ícone — Conversor",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-left-right",
+                      "library": "lucide",
+                      "fill": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ms9Dx",
+                      "name": "Rótulo — Conversor",
+                      "fill": "#718096",
+                      "content": "Conversor",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z4qO5Y",
+                  "name": "Navegação — Favoritos",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#E6F5F1",
+                  "cornerRadius": 10,
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "kxrjX",
+                      "name": "Ícone — Favoritos",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F0ewB",
+                      "name": "Rótulo — Favoritos",
+                      "fill": "#07866E",
+                      "content": "Favoritos",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "medium"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k645y",
+          "name": "Área de trabalho — Favoritos",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            36
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "B88qF",
+              "name": "Cabeçalho — Favoritos",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h3U8ns",
+                  "name": "Título — Favoritos",
+                  "layout": "vertical",
+                  "gap": 5,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D6v2f",
+                      "name": "Título tela favoritos",
+                      "fill": "#14243A",
+                      "content": "Favoritos",
+                      "fontFamily": "Geist",
+                      "fontSize": 27,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oG21x",
+                      "name": "Descrição favoritos",
+                      "fill": "#718096",
+                      "content": "Acompanhe de perto os pares que você escolheu.",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eSp8G",
+                  "name": "Adicionar favorito",
+                  "height": 40,
+                  "fill": "#07866E",
+                  "cornerRadius": 9,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "utZOA",
+                      "name": "Ícone adicionar moeda",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MkXxC",
+                      "name": "Texto adicionar moeda",
+                      "fill": "#FFFFFF",
+                      "content": "Adicionar moeda",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "semibold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S1a5Si",
+              "name": "Resumo de favoritos",
+              "width": "fill_container",
+              "height": 100,
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ccwds",
+                  "name": "Resumo Pares salvos",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 11,
+                  "stroke": "#E5EAF0",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 7,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wtv47",
+                      "name": "Rótulo resumo Pares salvos",
+                      "fill": "#718096",
+                      "content": "Pares salvos",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NyQfl",
+                      "name": "Valor resumo Pares salvos",
+                      "fill": "#14243A",
+                      "content": "04",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kNKMD",
+                      "name": "Detalhe resumo Pares salvos",
+                      "fill": "#718096",
+                      "content": "Moedas acompanhadas",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Kl0pH",
+                  "name": "Resumo Maior variação",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 11,
+                  "stroke": "#E5EAF0",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 7,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nyydu",
+                      "name": "Rótulo resumo Maior variação",
+                      "fill": "#718096",
+                      "content": "Maior variação",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pcsvQ",
+                      "name": "Valor resumo Maior variação",
+                      "fill": "#14243A",
+                      "content": "+0,84%",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KURdZ",
+                      "name": "Detalhe resumo Maior variação",
+                      "fill": "#718096",
+                      "content": "USD / BRL · ilustrativo",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tFc6J",
+                  "name": "Resumo Última atualização",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 11,
+                  "stroke": "#E5EAF0",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 7,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N9Esfx",
+                      "name": "Rótulo resumo Última atualização",
+                      "fill": "#718096",
+                      "content": "Última atualização",
+                      "fontFamily": "Geist",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bAAwL",
+                      "name": "Valor resumo Última atualização",
+                      "fill": "#14243A",
+                      "content": "Demo",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y4oauB",
+                      "name": "Detalhe resumo Última atualização",
+                      "fill": "#718096",
+                      "content": "Dados de demonstração",
+                      "fontFamily": "Geist",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n3dhUf",
+              "name": "Lista de moedas favoritas",
+              "width": "fill_container",
+              "height": 410,
+              "fill": "#FFFFFF",
+              "cornerRadius": 13,
+              "stroke": "#E5EAF0",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "padding": [
+                20,
+                22
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "b5Tf9",
+                  "name": "Cabeçalho da lista favoritos",
+                  "width": "fill_container",
+                  "height": 40,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JfTHW",
+                      "name": "Título lista favoritos",
+                      "fill": "#14243A",
+                      "content": "Seus pares",
+                      "fontFamily": "Geist",
+                      "fontSize": 15,
+                      "fontWeight": "semibold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lfSfS",
+                      "name": "Busca em favoritos",
+                      "fill": "#F4F7FA",
+                      "cornerRadius": 8,
+                      "gap": 7,
+                      "padding": [
+                        8,
+                        11
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "J9jYtk",
+                          "name": "Ícone busca favoritos",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "search",
+                          "library": "lucide",
+                          "fill": "#718096"
+                        },
+                        {
+                          "type": "text",
+                          "id": "AjKjL",
+                          "name": "Placeholder busca favoritos",
+                          "fill": "#718096",
+                          "content": "Buscar moeda",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UunnL",
+                  "name": "Colunas lista favoritos",
+                  "width": "fill_container",
+                  "height": 34,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e11ZID",
+                      "name": "Coluna PAR",
+                      "width": 280,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "J7CfRO",
+                          "name": "Rótulo coluna PAR",
+                          "fill": "#718096",
+                          "content": "PAR",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E5Oq1",
+                      "name": "Coluna COTAÇÃO",
+                      "width": 230,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GolrO",
+                          "name": "Rótulo coluna COTAÇÃO",
+                          "fill": "#718096",
+                          "content": "COTAÇÃO",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Wje3f",
+                      "name": "Coluna VARIAÇÃO · 24H",
+                      "width": 220,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "loS7X",
+                          "name": "Rótulo coluna VARIAÇÃO · 24H",
+                          "fill": "#718096",
+                          "content": "VARIAÇÃO · 24H",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L1C7Yo",
+                      "name": "Coluna TENDÊNCIA",
+                      "width": 260,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "F1ghr",
+                          "name": "Rótulo coluna TENDÊNCIA",
+                          "fill": "#718096",
+                          "content": "TENDÊNCIA",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U6MjW",
+                      "name": "Coluna ",
+                      "width": 70,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TKmnF",
+                          "name": "Rótulo coluna ",
+                          "fill": "#718096",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "medium"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LDISB",
+                  "name": "Favorito USD / BRL",
+                  "width": "fill_container",
+                  "height": 65,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B8xGn",
+                      "name": "Identidade par USD / BRL",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "liPxk",
+                          "name": "Nome par USD / BRL",
+                          "fill": "#14243A",
+                          "content": "USD / BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SynF6",
+                          "name": "Descrição par USD / BRL",
+                          "fill": "#718096",
+                          "content": "Dólar americano / Real brasileiro",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "b82g0l",
+                      "name": "Cotação par USD / BRL",
+                      "fill": "#14243A",
+                      "content": "R$ 5,72",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xyC3K",
+                      "name": "Variação par USD / BRL",
+                      "fill": "#07866E",
+                      "content": "+0,84%",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u0iZj",
+                      "name": "Mini tendência USD / BRL",
+                      "fill": "#07866E",
+                      "content": "↗  ━╱╲╱━",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "pa3hu",
+                      "name": "Remover favorito USD / BRL",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "SdQGw",
+                  "name": "Divisor do favorito USD / BRL",
+                  "fill": "#E5EAF0",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "pdM6U",
+                  "name": "Favorito EUR / BRL",
+                  "width": "fill_container",
+                  "height": 65,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h1ciYZ",
+                      "name": "Identidade par EUR / BRL",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O8LjK",
+                          "name": "Nome par EUR / BRL",
+                          "fill": "#14243A",
+                          "content": "EUR / BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OjXAX",
+                          "name": "Descrição par EUR / BRL",
+                          "fill": "#718096",
+                          "content": "Euro / Real brasileiro",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ra9aM",
+                      "name": "Cotação par EUR / BRL",
+                      "fill": "#14243A",
+                      "content": "R$ 6,18",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C5XlRo",
+                      "name": "Variação par EUR / BRL",
+                      "fill": "#07866E",
+                      "content": "+0,32%",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fSOJV",
+                      "name": "Mini tendência EUR / BRL",
+                      "fill": "#07866E",
+                      "content": "↗  ━╱╱╲━",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "aOja9",
+                      "name": "Remover favorito EUR / BRL",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "dwsXD",
+                  "name": "Divisor do favorito EUR / BRL",
+                  "fill": "#E5EAF0",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "E0qok",
+                  "name": "Favorito GBP / BRL",
+                  "width": "fill_container",
+                  "height": 65,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vJT4S",
+                      "name": "Identidade par GBP / BRL",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Pt9VY",
+                          "name": "Nome par GBP / BRL",
+                          "fill": "#14243A",
+                          "content": "GBP / BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bK2wO",
+                          "name": "Descrição par GBP / BRL",
+                          "fill": "#718096",
+                          "content": "Libra esterlina / Real brasileiro",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "S6vl9",
+                      "name": "Cotação par GBP / BRL",
+                      "fill": "#14243A",
+                      "content": "R$ 7,24",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y4OyM",
+                      "name": "Variação par GBP / BRL",
+                      "fill": "#D65C5C",
+                      "content": "−0,18%",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O8zxSq",
+                      "name": "Mini tendência GBP / BRL",
+                      "fill": "#D65C5C",
+                      "content": "↘  ━╲╱╲━",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "nE9eP",
+                      "name": "Remover favorito GBP / BRL",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "sKVJM",
+                  "name": "Divisor do favorito GBP / BRL",
+                  "fill": "#E5EAF0",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "WVH24",
+                  "name": "Favorito JPY / BRL",
+                  "width": "fill_container",
+                  "height": 65,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "X3JCB",
+                      "name": "Identidade par JPY / BRL",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ysOTn",
+                          "name": "Nome par JPY / BRL",
+                          "fill": "#14243A",
+                          "content": "JPY / BRL",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "semibold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L1O3rb",
+                          "name": "Descrição par JPY / BRL",
+                          "fill": "#718096",
+                          "content": "Iene japonês / Real brasileiro",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "rf3gM",
+                      "name": "Cotação par JPY / BRL",
+                      "fill": "#14243A",
+                      "content": "R$ 0,038",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TiDUp",
+                      "name": "Variação par JPY / BRL",
+                      "fill": "#07866E",
+                      "content": "+0,51%",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Km5OG",
+                      "name": "Mini tendência JPY / BRL",
+                      "fill": "#07866E",
+                      "content": "↗  ━╱╲╱━",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "medium"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "V0xjn",
+                      "name": "Remover favorito JPY / BRL",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "star",
+                      "library": "lucide",
+                      "fill": "#07866E"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "xieEe",
+                  "name": "Divisor do favorito JPY / BRL",
+                  "fill": "#E5EAF0",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "w0gJAg",
+              "name": "Aviso de dados favoritos",
+              "fill": "#718096",
+              "content": "As cotações e variações exibidas são ilustrativas e não representam valores em tempo real.",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ]
+  },
+  "variables": {
+    "--sidebar": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2a2a30",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#71717a"
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--background": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF8400"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#B8B9B6",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#F2F3F0",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D93C15"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--input": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#666666",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "--black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "--font-primary": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "--font-secondary": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "--radius-none": {
+      "type": "number",
+      "value": 0
+    },
+    "--radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "--color-success": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFE6E1"
+        },
+        {
+          "value": "#222924",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-success-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#004D1A"
+        },
+        {
+          "value": "#B6FFCE",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E9E3D8"
+        },
+        {
+          "value": "#291C0F",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#804200"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E5DCDA"
+        },
+        {
+          "value": "#24100B",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8C1C00"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFDFE6"
+        },
+        {
+          "value": "#222229",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000066"
+        },
+        {
+          "value": "#B2B2FF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--radius-m": {
+      "type": "number",
+      "value": 16
+    }
+  },
+  "fileToken": "f887e4f0-3c79-418d-aa23-4448fc548ce6"
+}
